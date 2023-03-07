@@ -1,0 +1,191 @@
+*{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.gradient-custom {
+    background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
+    linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
+    linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
+    radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
+    radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+    background-blend-mode: screen, color-dodge, overlay, difference, normal;
+}
+
+body{
+    background-color: #2563EB;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.container
+{
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: white ;
+    height: 95vh;
+}
+
+.ml{
+    margin-right: 10px;
+}
+
+.border-solid{
+    border: 1px solid red;
+}
+
+.todo{
+    border: 1px solid red;
+}
+
+.btn-NewTask{
+    background-color: black;
+    /* border: 1px solid rgb(0, 217, 255); */
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 50px;
+}
+.td-align-betwwen{
+    display: inline-block;
+    padding-right: auto;
+}
+.td-align-first{
+    display: inline-block;
+    padding-right: 100px;
+    padding-left: 5px;
+}
+.td-align-last{
+    display: inline-block;
+    padding-left: 100px;
+}
+
+
+.input-task{
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: ; */
+}
+.input-name-task{
+    margin-bottom: 10px;
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    border:1px solid gray;
+    font-size: 14px;
+}
+.info-due-date{
+    display: flex;
+    justify-content: center;
+}
+.timetodo{
+    /* margin-bottom: 10px; */
+    /* width: 70%; */
+    display: absolute;
+    margin-top: 10px;
+    height: 30px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.input-name-task:hover {
+    background-color: #f0f0f0;
+    border: 2px solid aqua;
+}
+
+.btn-add-task{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-add{
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: cadetblue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.nav-tab{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    font-weight: bold;
+    /* margin-top: 10px; */
+}
+.name-tab{
+    padding: 0px 30px;
+    cursor: pointer;
+
+}
+
+.active{
+    color: purple;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 10px;
+}
+
+.name-tab:hover{
+    color: purple;
+
+}
+
+.name-choose{
+    padding: 0px auto;
+    cursor: pointer;
+}
+
+.choosed{
+    display: block;
+    background-color: rgb(55, 199, 209);
+    color: white;
+    border-radius: 5px;
+}
+
+.name-choose:hover{
+    background-color: rgb(55, 199, 209);
+    color: white;
+    border-radius: 5px;
+}
+.list-task{
+    margin: 0px 20px;
+}
+
+.icon-check{
+    margin: auto 0;
+    font-size: 30px;
+    cursor: pointer;
+    color: red;
+}
+.checked{
+    color: green;
+}
+.icon-edit,.icon-trash{
+    margin: auto 0;
+    color: gray;
+    cursor: pointer;
+}
+
+.icon-edit:hover,.icon-trash:hover{
+    color: red;
+}
+
+.name-task{
+    margin: auto 0;
+}
+
+.info-task{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}

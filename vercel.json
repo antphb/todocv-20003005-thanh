@@ -11,7 +11,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "CV/wsgi.py"
+            "dest": "manage.py"
         },
         {
             "src":"/static/(.*)",
