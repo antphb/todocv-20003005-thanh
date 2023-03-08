@@ -1,0 +1,144 @@
+{% extends 'app/base.html' %}
+
+{%load static%}
+
+{%block title%} 
+    CV Ver2
+{%endblock title%}
+
+{%block vitriTuyenDung%}
+    Junior Developer
+{%endblock vitriTuyenDung%}
+
+{% block header %}
+<div class="header">
+    <div class="contact d-inline d-flex align-items-center bg-info p-3"></div>
+</div>
+{% endblock header %}
+
+{% block main-content %}
+<div class="info-me">
+    <div class="row">
+        <div class="col-4">
+            <div class="contact mb-4">
+                <h3 class="text-primary font-weight-bold ">CONTACT</h3>
+                <hr>
+                <div class="diachi d-inline d-flex align-items-center mb-2">
+                    <i class="fa-solid fa-house mr-3"></i>
+                    <p class="mb-0">60/30 Yên thế, Phường 2, Quận Tân Bình, TP.HCM</p>
+                </div>
+                <div class="email d-inline d-flex align-items-center  mb-2">
+                    <i class="fa-solid fa-envelope mr-3"></i>
+                    <p class="mb-0">thanhnd2462245@gmail.com</p>
+                </div>
+                <div class="phone d-inline d-flex align-items-center mb-2">
+                    <i class="fa-solid fa-phone mr-3"></i>
+                    <p class="mb-0">0862462245</p>
+                </div>
+                <div class="github d-inline d-flex align-items-center mb-2">
+                    <i class="fa-brands fa-github mr-3"></i>
+                    <a href="https://antphb.github.io/WebSite_BanGiay_T3H2/" class="mb-0 " style="color: black">T3H2BanGiayFashion</a>
+                </div>
+                <div class="Thuongtru d-inline d-flex align-items-center mb-2">
+                    <i class="fa-solid fa-location-dot mr-3"></i>
+                    <p class="mb-0">Hồ Chí Minh</p>
+                </div>
+                <div class="NgaySinh d-inline d-flex align-items-center mb-2">
+                    <i class="fa-solid fa-calendar-days mr-3"></i>
+                    <p class="mb-0">20/11/2001</p>
+                </div>
+                <div class="TinhTrang d-inline d-flex align-items-center mb-2">
+                    <i class="fa-solid fa-heart mr-3"></i> 
+                    <p class="mb-0">Độc Thân</p>
+                </div>
+            </div>
+            <div class="KyNang mb-4">
+                <h3 class="text-primary font-weight-bold">SKILLS</h3>
+                <hr>
+                <div>
+                    <div class="progress mb-2">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%">Python</div>
+                    </div>
+                    <div class="progress mb-2">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%">HTML</div>
+                    </div>
+                    <div class="progress mb-2">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%">CSS</div>
+                    </div>
+                    <div class="progress mb-2">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%">JS</div>
+                    </div>
+                    <div class="progress mb-2">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%">SQL</div>
+                    </div>
+                </div>
+            </div>
+            <div class="ngonngu mb-2">
+                <h3 class="text-primary font-weight-bold">LANGUAGE</h3>
+                <hr>
+                <div class="TiengViet d-inline d-flex align-items-center mb-2">
+                    <p class="mb-0 mr-5">Tiếng việt</p>
+                    <p class="mb-0 text-primary ml-5">Native</p>
+                </div>
+                <div class="TiengViet d-inline d-flex align-items-center mb-2">
+                    <p class="mb-0 mr-5">English</p>
+                    <p class="mb-0 text-primary ml-5">Pretty Good</p>
+                </div>
+            </div>
+            <div class="sothich mt-4">
+                <h3 class="text-primary font-weight-bold">HOBBY</h3>
+                <hr>
+                <div class="TiengViet d-inline d-flex align-items-center mb-2">
+                    <p>Nghe nhạc, xem phim, cầu lông, ... </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-8">
+            <div class="summary mb-4">
+                <h3 class="text-primary font-weight-bold">RESUME OBJECTIVE</h3>
+                <hr>
+                <p class="text-justify"> Data Scientist with 2 years of experience in data analysis and machine learning.I have a strong background in mathematics and statistics, and i am passionate about using data to solve real-world problems. I am looking for a position where i can apply my skills and knowledge to help the company achieve its goals. I am a quick learner and a team player, and i am always eager to learn new skills and technologies. I am also a strong communicator and i am able to explain complex technical concepts to non-technical audiences. I think that my skills and experience make me a good candidate for this position. I am excited to learn more about the company and the position, and i look forward to hearing from you. Thank you for your time and consideration.</p>
+            </div>
+            <div class="study">
+                <h3 class="text-primary font-weight-bold">EDUCATION</h3>
+                <hr>
+                <div class="HocLuc mb-2">
+                    <p class="ml-2 mb-0 font-weight-bold">Kỹ sư khoa học máy tính</p>
+                    <div class="TruongHoc d-inline d-flex align-items-center ml-2 text-muted">
+                        <p class="mb-0 mr-2">Trường Đại Học Công Nghiệp TH.HCM</p>
+                        <p class="mb-0">2020 - Present</p>
+                    </div>
+                    {% comment %} <p class="mt-0 ml-2 text-muted">Xếp loại học lực: Xuất Xắc</p>     {% endcomment %}
+                </div>
+                <div class="HocLuc mb-4">
+                    <p class="ml-2 mb-0 font-weight-bold">MICROSOFT CERTIFIED SOLUTIONS EXPERT</p>
+                    <div class="TruongHoc d-inline d-flex align-items-center ml-2 text-muted">
+                        {% comment %} <p class="mb-0 mr-2">Trường Đại Học Công Nghiệp TH.HCM</p> {% endcomment %}
+                        <p class="mb-0">2023</p>
+                    </div>
+                    {% comment %} <p class="mt-0 ml-2 text-muted">Xếp loại học lực: Xuất Xắc</p>     {% endcomment %}
+                </div>
+                
+                <div class="kinhnghiem mb-4">
+                    <h3 class="text-primary font-weight-bold">EXPERIENCE</h3>
+                    <hr>
+                    <div class="fresher mb-4">
+                        <p class="ml-2 mb-0 font-weight-bold">DATA SCIENTIST</p>
+                        <div class="CongtyFresher d-inline d-flex align-items-center ml-2 text-muted">
+                            <p class="mb-0 mr-2">Microsoft, Tucson, AZ
+                            </p>
+                            <p class="mb-0">September 2021 - Present</p>
+                        </div>
+                        <ul>
+                            <li>Conduct data regression analyses of the relationship betwwen company stock prices and industry trends, achieving a 15% more accurate perdiction of performence than previous years</li>
+                            <li>Utlilize web scrapong techniques to extract and organize compertitor data</li>
+                            <li>Update company data warehousing techniques such as data recall and segmentation, resulting in a 20% increase in usability for non-technical staff members</li>
+                            <li>Modernize data streamlining processes, resulting in a 25% redundancy reduciton</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock main-content%}

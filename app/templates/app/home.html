@@ -1,0 +1,13 @@
+{% extends 'app/base.html' %}
+
+{%load static%}
+{%block title%}Home{%endblock title%}
+
+{% block main-content %}
+<div class="text-center font-size-24">
+    <a href="{%url 'ToDo1'%}" class="mr-5">To do version 1</a>
+    <a href="{%url 'ToDo2'%}" class="mr-5">To do version 2</a>
+    <a href="{%url 'CV1'%}" class="mr-5">CV version 1</a>
+    <a href="{%url 'CV2'%}">CV version 2</a>
+</div>
+{% endblock main-content %}

@@ -1,0 +1,68 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List ver 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{%static 'css/main_ToDo_V1.css'%}">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Sans+MS&display=swap" rel="stylesheet">
+</head>
+<body class="gradient-custom">
+    <div class="container">
+        <div class="title text-center">
+            <h1>To Do List</h1>
+        </div>
+        <div class="input-task" >
+            <input type="text" name="" id="" placeholder="New Task" class="input-name-task">
+        </div>
+        <div class="info-due-date">
+            <p style="margin-right:10%;">Due date: </p>
+            <input type="datetime-local" name="timetodo" id="timetodo" class="timetodo">
+        </div>
+        <div class="btn-add-task">
+            <button class="btn btn-add">Add Task</button>
+        </div>
+        <div class="nav-tab">
+            <p class="name-tab active">SHOW</p>
+            <p class="name-tab">SORT</p>
+            <p class="name-tab">SEARCH</p>
+        </div>
+        <hr>
+        <div class="nav-tab">
+            <p class="name-choose choosed">All</p>
+            <p class="name-choose">Pending</p>
+            <p class="name-choose">Completed</p>
+            <p class="name-choose">Expried</p>
+        </div>
+        <hr>
+        <div class="list-task">
+            <div class="info-task">
+                <i class="fa-solid fa-square-check icon-check"></i>
+                <div class="name-task">
+                    <p style="margin: 0px; font-size: 10px;"><i>Thursday 02/03/2023 20:30</i></p>
+                    <p style="margin: 0px;">To do ver 1</p>
+                </div>
+                <i class="fa-solid fa-pen icon-edit"></i>
+                <i class="fa-solid fa-trash-alt icon-trash"></i>
+            </div>
+            <hr>
+            <div class="info-task">
+                <i class="fa-solid fa-square-check icon-check checked"></i>
+                <div class="name-task">
+                    <p style="margin: 0px; font-size: 10px;"><i>Thursday 02/03/2023 21:30</i></p>
+                    <p style="margin: 0px; text-decoration-line: line-through;">Hoàn thành ver 1</p>
+                </div>
+                <i class="fa-solid fa-pen icon-edit"></i>
+                <i class="fa-solid fa-trash-alt icon-trash"></i>
+            </div>
+            <hr>
+        </div>
+        <div>
+            <p class="text-center" style="margin-top: 25%;">© 2023 by <a href="" target="_blank">ND Thanh 20003005</a></p>
+        </div>
+    </div>
+</body>
+</html>
